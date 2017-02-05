@@ -1,0 +1,88 @@
+<resources>
+    <string name="app_name">BlackPinkIntent01</string>
+
+    <!-- main activity title -->
+    <string name="app_main">♡ BlackPink Home ♡</string>
+
+    <!-- info activity title -->
+    <string name="app_jisoo">♡ Jisoo Info ♡</string>
+    <string name="app_jennie">♡ Jennie Info ♡</string>
+    <string name="app_rose">♡ Rose Info ♡</string>
+    <string name="app_lisa">♡ Lisa Info ♡</string>
+
+    <!-- info activity text -->
+    <string name="app_jisoo_info">지수의 멋진 모습을 감상하세요.^^</string>
+    <string name="app_jennie_info">제니의 깜찍한 모습을 감상하세요.^^</string>
+    <string name="app_rose_info">로제의 상큼한 모습을 감상하세요.^^</string>
+    <string name="app_lisa_info">리사의 멋진 모습을 감상하세요.^^</string>
+
+    <!-- profile activity title -->
+    <string name="app_jisoo_profile">♡ Jisoo Profile ♡</string>
+    <string name="app_jennie_profile">♡ Jennie Profile ♡</string>
+    <string name="app_rose_profile">♡ Rose Profile ♡</string>
+    <string name="app_lisa_profile">♡ Lisa Profile ♡</string>
+
+    <!-- profile activity text title -->
+    <string name="app_jisoo_profile_title">Jisoo Profile</string>
+    <string name="app_jennie_profile_title">Jennie Profile</string>
+    <string name="app_rose_profile_title">Rose Profile</string>
+    <string name="app_lisa_profile_title">Lisa Profile</string>
+
+    <!-- profile activity text content -->
+    <string name="app_jisoo_profile_content">
+        \n
+        ♥ 본명 김지수\n
+        ♥ 국적 대한민국\n
+        ♥ 신체 162cm, A형\n
+        ♥ 소속그룹 블랙핑크\n
+        ♥ 포지션 리드보컬\n
+        ♥ 데뷔 2016년 싱글앨범 SQUARE ONE
+    </string>
+
+    <string name="app_jennie_profile_content">
+        \n
+        ♥ 출생: 1996년 1월 16일 (21세), 안양시\n
+        ♥ 키: 163cm\n
+        ♥ 국적: 대한민국\n
+        ♥ 음반회사: YG 엔터테인먼트\n
+        ♥ 소속 그룹: 블랙핑크
+    </string>
+
+    <string name="app_rose_profile_content">
+        \n
+        ♥ 출생: 1997년 2월 11일 (19세), 뉴질랜드\n
+        ♥ 키: 168cm\n
+        ♥ 국적: 대한민국\n
+        ♥ 소속 그룹: 블랙핑크 (2016년 ~)
+    </string>
+
+    <string name="app_lisa_profile_content">
+        \n
+        ♥ 출생: 1997년 3월 27일 (19세), 타이 방콕\n
+        ♥ 키: 170cm\n
+        ♥ 음반회사: YG 엔터테인먼트\n
+        ♥ 소속 그룹: 블랙핑크 (2016년 ~)
+    </string>
+
+    <!-- custom dialog title -->
+    <string name="app_jisoo_custom_dialog">♡ Jisoo zzang ♡</string>
+    <string name="app_jennie_custom_dialog">♡ Jennie fighting ♡</string>
+    <string name="app_rose_custom_dialog">♡ Rose zzang ♡</string>
+    <string name="app_lisa_custom_dialog">♡ Lisa fighting ♡</string>
+
+    <!-- blackpink infomation -->
+    <string name="app_blackpink_info_title">블랙핑크 애플리케이션 정보</string>
+    <string name="app_blackpink_info_content">
+        1. 제작자\n
+           한국 IT 교육원\n
+           전자 정부 프레임워크 2반\n
+           도낙원\n
+        2. 제작 완료 일\n
+           2017년 1월 19일 목요일\n
+        3. 버전 정보\n
+           BlackPink version 1.1\n
+           API 25.\n
+    </string>
+
+
+</resources>

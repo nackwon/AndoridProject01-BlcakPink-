@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="kr.hkit.blackpinkintent01">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_main"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Intro">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".MainActivity" />
+
+        <service
+            android:name=".MusicService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity
+            android:name=".InfoActivity"
+            android:label="@string/app_blackpink_info_title">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+    </activity>
+
+    <activity
+        android:name=".JisooActivity"
+        android:label="@string/app_jisoo">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".MainActivity" />
+    </activity>
+
+    <activity
+        android:name=".JennieActivity"
+        android:label="@string/app_jennie">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".MainActivity" />
+    </activity>
+    <activity
+        android:name=".RoseActivity"
+        android:label="@string/app_rose">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".MainActivity" />
+    </activity>
+    <activity
+        android:name=".LisaActivity"
+        android:label="@string/app_lisa">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".MainActivity" />
+    </activity>
+    <activity
+        android:name=".JisooProfileActivity"
+        android:label="@string/app_jisoo_profile">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".JisooActivity" />
+    </activity>
+    <activity
+        android:name=".JennieProfileActivity"
+        android:label="@string/app_jennie_profile">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".JennieActivity" />
+    </activity>
+    <activity
+        android:name=".RoseProfileActivity"
+        android:label="@string/app_rose_profile">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".RoseActivity" />
+    </activity>
+    <activity
+        android:name=".LisaProfileActivity"
+        android:label="@string/app_lisa_profile">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".LisaActivity" />
+    </activity>
+
+
+</application>
+
+    </manifest>
